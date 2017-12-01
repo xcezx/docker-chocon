@@ -1,5 +1,9 @@
-language: bash
+sudo: required
 services: docker
+
+before_script:
+  - sudo apt-get update
+  - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
 
 script:
   - docker image build -t xcezx/chocon .
