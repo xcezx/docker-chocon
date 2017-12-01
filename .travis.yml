@@ -1,8 +1,8 @@
 language: bash
 services: docker
 
-scripts:
+script:
   - docker image build -t xcezx/chocon .
 
-after_scripts:
+after_script:
   - docker image ls
