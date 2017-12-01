@@ -1,5 +1,8 @@
 # xcezx/chocon
 
+[![Build Status](https://travis-ci.org/xcezx/docker-chocon.svg?branch=master)](https://travis-ci.org/xcezx/docker-chocon)
+
+
 ## Usage
 
 ```
